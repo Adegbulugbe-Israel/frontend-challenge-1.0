@@ -1,0 +1,120 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+  height: 800px;
+  margin: 0;
+  position: relative;
+  font-family: 'Karla', sans-serif;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width:600px;
+  height:450px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.container-toptext{
+  padding: 20px 35px 35px;
+}
+
+.container-toptext h3{
+  color: hsl(179, 62%, 43%);
+  font-weight: bold;
+}
+
+.container-toptext h4{
+  color: hsl(71, 73%, 54%);
+  font-weight: lighter;
+}
+
+.container-toptext h5{
+  width: 90%;
+  margin-top: 20px;
+  line-height: 1.5;
+  position: absolute;
+  top: 90px;
+  color: hsl(218, 22%, 67%);
+  font-weight: lighter;
+}
+
+
+.container-lefttext{
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  height: 55%;
+  position: absolute;
+  top:202px;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.container-righttext{
+  background-color: hsl(179, 47%, 52%);
+  width: 50%;
+  height: 55%;
+  position: absolute;
+  top:202px;
+  left: 50%;
+  border-radius: 0px 0px 10px 0px;
+  color: white;
+  justify-content: center;
+}
+
+.right-text{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.left-text{
+  padding-top: 10px;
+}
+
+.container-lefttext{
+  color: white;
+  padding-left: 30px;
+
+}
+
+.container-lefttext h4{
+  font-weight: lighter;
+}
+
+.container-lefttext h5{
+  position: absolute;
+  top: 90px;
+  font-weight: lighter;
+}
+
+.container-righttext h5{
+  line-height: 0;
+  padding-left: 30px;
+  font-weight: lighter;
+}
+
+.container-righttext h4{
+  padding-left: 30px;
+}
+
+.affected-text{
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 68px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 55px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
